@@ -1,6 +1,6 @@
 {
-  "name": "test-abaplint-deps-npm-package",
-  "version": "0.0.0",
+  "name": "@JohannesKonings/test-abaplint-deps-npm-package",
+  "version": "0.0.1",
   "description": "test npm package with abaplint deps",
   "main": "index.js",
   "scripts": {
@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/JohannesKonings/test-abaplint-deps-npm-package/issues"
   },
-  "homepage": "https://github.com/JohannesKonings/test-abaplint-deps-npm-package#readme"
+  "homepage": "https://github.com/JohannesKonings/test-abaplint-deps-npm-package#readme",
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/JohannesKonings"
+  }
 }
